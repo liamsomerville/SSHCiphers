@@ -12,10 +12,10 @@ python SSHciphers.py <ip address>
 e.g. python SSHCiphers.py
 
 #Note
-this script is effectivly just a parser for nmap
-the nmap script we use here hard codes that SSH scanning is done on port 22/tcp
-if you need to change this you need to modify the namp script - recomend copying and renaming the copy. use the copy
-leave the original entact
-the line that needs modified is
-portrule = shortport.port_or_service(22, "ssh")
-in kali is /usr/share/nmap/scripts/ssh2-enum-algos.nse
+- this script is effectivly just a parser for nmap.
+- the nmap script we use here hard codes that SSH scanning is done on port 22/tcp
+- if you need to change this you need to modify the namp script - recomend copying and renaming the copy. use the copy
+- leave the original entact
+- the line that needs modified is
+    portrule = shortport.port_or_service(22, "ssh")
+-in kali is /usr/share/nmap/scripts/ssh2-enum-algos.nse
