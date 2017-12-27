@@ -8,7 +8,7 @@ https://wiki.mozilla.org/Security/Guidelines/OpenSSH
 
 # Usage
 python SSHciphers.py <ip address>
-e.g. python SSHCiphers.py 192.168.1.1
+    e.g. python SSHCiphers.py 192.168.1.1
 
 # Note
 - this script is effectivly just a parser for nmap.
