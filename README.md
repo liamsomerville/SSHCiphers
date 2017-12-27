@@ -7,7 +7,7 @@ The script defines the good ciphers as mentioned in the advice from Mozilla, ava
 https://wiki.mozilla.org/Security/Guidelines/OpenSSH
 
 # Usage
-python SSHciphers.py <ip address>
+python SSHciphers.py [IP ADDRESS]
 e.g. python SSHCiphers.py 192.168.1.1
 
 # Note
