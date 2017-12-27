@@ -3,15 +3,14 @@ The purpose of this script is to use weak ciphers on remote SSH servers
 
 
 # Who defined the good and bad ciphers
-he script defines the good ciphers as mentioned in the advice here
+The script defines the good ciphers as mentioned in the advice from Mozilla, available here
 https://wiki.mozilla.org/Security/Guidelines/OpenSSH
 
-
-#Usage
+# Usage
 python SSHciphers.py <ip address>
 e.g. python SSHCiphers.py
 
-#Note
+# Note
 - this script is effectivly just a parser for nmap.
 - the nmap script we use here hard codes that SSH scanning is done on port 22/tcp
 - if you need to change this you need to modify the namp script - recomend copying and renaming the copy. use the copy
